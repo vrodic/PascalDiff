@@ -1,0 +1,46 @@
+object Form1: TForm1
+  Left = 297
+  Height = 730
+  Top = 250
+  Width = 1033
+  Caption = 'Form1'
+  ClientHeight = 730
+  ClientWidth = 1033
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 0
+    Width = 75
+    Caption = 'Button1'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object RichMemo1: TRichMemo
+    Left = 8
+    Height = 648
+    Top = 24
+    Width = 512
+    HideSelection = False
+    Lines.Strings = (
+      'RichMemo1'
+    )
+    OnChange = RichMemo1Change
+    OnKeyPress = RichMemo1KeyPress
+    TabOrder = 2
+    ZoomFactor = 1
+  end
+  object RichMemo2: TRichMemo
+    Left = 536
+    Height = 642
+    Top = 24
+    Width = 472
+    HideSelection = False
+    Lines.Strings = (
+      'RichMemo2'
+    )
+    OnChange = RichMemo2Change
+    OnKeyPress = RichMemo2KeyPress
+    TabOrder = 0
+    ZoomFactor = 1
+  end
+end
